@@ -1,5 +1,6 @@
 // Prompts that come up after you click generate password
 function generatePassword() {
+  
   var passwordLength = prompt("How many characters would you like your password to have? Enter a value between 8 and 128.");
 
   var numbers = confirm("Do you want to include numbers in your password");
